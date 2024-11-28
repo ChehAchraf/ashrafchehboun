@@ -56,6 +56,7 @@ export async function getServerSideProps({ res }) {
 			if ( i < 8 && ! e.topics.includes('github-config')) return e
 			return false
 		})
+		repos = repos.filter(repo => repo.name !== 'AymaneTech');
 	}
 
 	if (!repos || !user) { return { notFound: true,	} }
