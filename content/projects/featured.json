@@ -1,10 +1,10 @@
 [
   {
-    "project": "YouCode Geeks",
-    "url": "https://github.com/aymanetech/youcodegeeks",
+    "project": "State of Dev",
+    "url": "https://github.com/AymaneTech/it-survey-in-spring-boot",
     "repo": "public",
-    "descriptionTitle": "Collaborative Coding Platform for YouCode Students",
-    "description": "A platform dedicated to collaborative error resolution and knowledge sharing, enhancing peer-to-peer learning and collective growth in web development skills.",
+    "descriptionTitle": "Professional Survey Platform for IT Industry Insights",
+    "description": "A robust survey platform designed to gather insights from the IT industry. The platform supports hierarchical survey structuring, various question types, and detailed analytics, built using Spring Boot and Domain-Driven Design principles.",
     "imageOptions": [],
     "images": [
       {
@@ -12,58 +12,48 @@
         "hover": "left",
         "h": "556",
         "w": "556",
-        "url": "/img/projects/evento.png"
+        "url": "/img/projects/itlens-mock.png"
       }
     ],
     "stack": [
-      { "key": "php", "name": "PHP", "type": "devicon" },
-      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-      { "key": "laravel", "name": "laravel", "type": "devicon" },
-      { "key": "react", "name": "React", "type": "devicon" },
-      { "key": "redux", "name": "Redux Tool kit", "type": "devicon" },
-      { "key": "git", "name": "Git(Hub)", "type": "devicon" },
+      { "key": "java", "name": "Java 21", "type": "devicon" },
+      { "key": "springboot", "name": "Spring Boot 3.2.0", "type": "devicon" },
+      { "key": "postgresql", "name": "PostgreSQL 16", "type": "devicon" },
+      { "key": "redis", "name": "Redis 7.2", "type": "devicon" },
       { "key": "docker", "name": "Docker", "type": "devicon" },
-      { "key": "postgres", "name": "Postgres", "type": "devicon" }
+      { "key": "swagger", "name": "Swagger UI", "type": "devicon" },
+      { "key": "junit", "name": "JUnit 5", "type": "devicon" },
+      { "key": "tdd", "name": "Test-Driven Development (TDD)", "type": "badge" },
+      { "key": "ddd", "name": "Domain-Driven Design (DDD)", "type": "badge" }
     ]
   },
   {
-	"project": "Evento",
-	"url": "https://github.com/aymanetech/evento",
-	"repo": "public",
-	"descriptionTitle": "Innovative Event Management and Reservation Platform",
-	"description": "A platform dedicated to optimizing user experience for participants, organizers, and administrators in managing and reserving event spaces.",
-	"imageOptions": [],
-	"images": [
-	  {
-	    "key": "mock-stack",
-	    "hover": "right",
-	    "h": "1200",
-	    "w": "556",
-	    "url": "/img/msc-mock_stack/03.png"
-	  },
-	  {
-	    "key": "mock-stack",
-	    "hover": "right",
-	    "h": "1200",
-	    "w": "556",
-	    "url": "/img/msc-mock_stack/02.png"
-	  },
-	  {
-	    "key": "mock-stack",
-	    "hover": "left",
-	    "h": "1200",
-	    "w": "556",
-	    "url": "/img/msc-mock_stack/01.png"
-	  }
-	],
-	"stack": [
-	  { "key": "laravel", "name": "Laravel", "type": "devicon" },
-	  { "key": "blade", "name": "Blade", "type": "devicon" },
-	  { "key": "docker", "name": "Docker", "type": "devicon" },
-	  { "key": "git", "name": "Git(Hub)", "type": "devicon" },
-	  { "key": "javascript", "name": "JavaScript", "type": "devicon" },
-	  { "key": "axios", "name": "Axios", "type": "devicon" },
-	  { "key": "tailwind", "name": "Tailwind", "type": "devicon" }
-	]
-    }    
+    "project": "Citronix: Lemon Farm Management System 🍋",
+    "url": "https://github.com/AymaneTech/citronix-farm-tracking-system-spring-boot",
+    "repo": "public",
+    "descriptionTitle": "Comprehensive Farm Management Application for Lemon Orchards",
+    "description": "Citronix is a complete farm management system for lemon orchards, enabling farmers to track production, harvests, and sales while optimizing tree productivity based on their age. Built with Java 21 and Spring Boot, this application adheres to Domain-Driven Design principles and modern software best practices.",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "citronix-mock",
+        "hover": "left",
+        "h": "556",
+        "w": "556",
+        "url": "/img/projects/citronix-mock.png"
+      }
+    ],
+    "stack": [
+      { "key": "java", "name": "Java 21", "type": "devicon" },
+      { "key": "springboot", "name": "Spring Boot 3.3.5", "type": "devicon" },
+      { "key": "postgresql", "name": "PostgreSQL 16", "type": "devicon" },
+      { "key": "docker", "name": "Docker", "type": "devicon" },
+      { "key": "swagger", "name": "Swagger UI", "type": "devicon" },
+      { "key": "junit", "name": "JUnit 5", "type": "devicon" },
+      { "key": "assertj", "name": "AssertJ", "type": "badge" },
+      { "key": "ci-cd", "name": "GitHub Actions for CI/CD", "type": "badge" },
+      { "key": "tdd", "name": "Test-Driven Development (TDD)", "type": "badge" },
+      { "key": "ddd", "name": "Domain-Driven Design (DDD)", "type": "badge" }
+    ]
+  }
 ]
