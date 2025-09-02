@@ -5,8 +5,9 @@
 	border-bottom: 1px solid var(--primary-dark);
 	
 	max-height: 1440px;
-	height: 100vh;
+	min-height: calc(100vh + 6rem); /* Increase height to account for navbar padding */
 	justify-content: center;
+	padding-top: 6rem; /* Add top padding to account for fixed navbar */
 	
 	> .container {
 		height: fit-content;
@@ -54,6 +55,9 @@
 	}
 
 	@include media($max: $mobile) {
+		padding-top: 5rem; /* Slightly less padding on mobile */
+		min-height: calc(100vh + 5rem); /* Adjust mobile height accordingly */
+		
 		.preHeader {
 			font-size: 1rem;
 		}

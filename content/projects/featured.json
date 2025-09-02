@@ -1,10 +1,10 @@
 [
   {
-    "project": "State of Dev",
-    "url": "https://github.com/AymaneTech/it-survey-in-spring-boot",
+    "project": "Web app to manage Crypto Wallet",
+    "url": "https://github.com/ChehAchraf/nx",
     "repo": "public",
-    "descriptionTitle": "Professional Survey Platform for IT Industry Insights",
-    "description": "A robust survey platform designed to gather insights from the IT industry. The platform supports hierarchical survey structuring, various question types, and detailed analytics, built using Spring Boot and Domain-Driven Design principles.",
+    "descriptionTitle": "Nexus Crypto Wallet",
+    "description": "is a web-based cryptocurrency wallet that allows users to manage their crypto assets securely and conveniently. It provides a user-friendly interface for sending, receiving, and storing cryptocurrencies.",
     "imageOptions": [],
     "images": [
       {
@@ -16,27 +16,25 @@
       }
     ],
     "stack": [
-      { "key": "java", "name": "Java 21", "type": "devicon" },
-      { "key": "springboot", "name": "Spring Boot 3.2.0", "type": "devicon" },
-      { "key": "postgresql", "name": "PostgreSQL 16", "type": "devicon" },
-      { "key": "redis", "name": "Redis 7.2", "type": "devicon" },
-      { "key": "docker", "name": "Docker", "type": "devicon" },
-      { "key": "swagger", "name": "Swagger UI", "type": "devicon" },
-      { "key": "junit", "name": "JUnit 5", "type": "devicon" },
-      { "key": "tdd", "name": "Test-Driven Development (TDD)", "type": "badge" },
-      { "key": "ddd", "name": "Domain-Driven Design (DDD)", "type": "badge" }
+      { "key": "php", "name": "PHP", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "html5", "name": "HTML", "type": "devicon" },
+      { "key": "css3", "name": "CSS", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind", "type": "devicon" },
+      { "key": "postgresql", "name": "PostgreSQL", "type": "devicon" },
+      { "key": "mvc", "name": "mvc", "type": "devicon" }
     ]
   },
   {
-    "project": "Citronix: Lemon Farm Management System 🍋",
-    "url": "https://github.com/AymaneTech/citronix-farm-tracking-system-spring-boot",
+    "project": "Catchyou: Detect locaction tool",
+    "url": "https://github.com/ChehAchraf/Detect-Loaclisation-tool",
     "repo": "public",
-    "descriptionTitle": "Comprehensive Farm Management Application for Lemon Orchards",
-    "description": "Citronix is a complete farm management system for lemon orchards, enabling farmers to track production, harvests, and sales while optimizing tree productivity based on their age. Built with Java 21 and Spring Boot, this application adheres to Domain-Driven Design principles and modern software best practices.",
+    "descriptionTitle": "Detect location tool",
+    "description": " a tool that detects the location of a user's device. It is built with PHP and Python using cloudflare self hosting.",
     "imageOptions": [],
     "images": [
       {
-        "key": "citronix-mock",
+        "key": "catchyou-mock",
         "hover": "left",
         "h": "556",
         "w": "556",
@@ -44,16 +42,63 @@
       }
     ],
     "stack": [
-      { "key": "java", "name": "Java 21", "type": "devicon" },
-      { "key": "springboot", "name": "Spring Boot 3.3.5", "type": "devicon" },
-      { "key": "postgresql", "name": "PostgreSQL 16", "type": "devicon" },
-      { "key": "docker", "name": "Docker", "type": "devicon" },
-      { "key": "swagger", "name": "Swagger UI", "type": "devicon" },
-      { "key": "junit", "name": "JUnit 5", "type": "devicon" },
-      { "key": "assertj", "name": "AssertJ", "type": "badge" },
-      { "key": "ci-cd", "name": "GitHub Actions for CI/CD", "type": "badge" },
-      { "key": "tdd", "name": "Test-Driven Development (TDD)", "type": "badge" },
-      { "key": "ddd", "name": "Domain-Driven Design (DDD)", "type": "badge" }
+      { "key": "php", "name": "PHP", "type": "devicon" },
+      { "key": "python", "name": "Python", "type": "devicon" },
+      { "key": "cloudflare", "name": "Cloudflare", "type": "devicon" },
+      { "key": "mvc", "name": "mvc", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "Todiffy: Task management tool",
+    "url": "https://github.com/ChehAchraf/TodoApp-Raect-Native",
+    "repo": "public",
+    "descriptionTitle": "Task management tool",
+    "description": " a task management tool built with React Native, that allows users to manage their tasks and set reminders for them",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "todiffy-mock",
+        "hover": "left",
+        "h": "556",
+        "w": "556",
+        "url": "/img/projects/citronix-mock.png"
+      }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "reactnative", "name": "React Native", "type": "devicon" },
+      { "key": "expo", "name": "Expo", "type": "devicon" },
+      { "key": "nativewind", "name": "Native Wind", "type": "devicon" },
+      { "key": "vscode", "name": "Visual Studio Code", "type": "devicon" },
+      { "key": "convex", "name": "Convex", "type": "devicon" }
+    ]
+  },
+  {
+    "project": "The Perfect Chef: project management system",
+    "url": "https://github.com/ChehAchraf/Prometi-filament",
+    "repo": "public",
+    "descriptionTitle": "Project management system",
+    "description": " a project management system built with Laravel, that allows users to manage their projects and tasks, and hadle hours worked on each task, also handle the delivery of the project with the ability to track the status of agents and projects",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "theperfectchef-mock",
+        "hover": "left",
+        "h": "556",
+        "w": "556",
+        "url": "/img/projects/citronix-mock.png"
+      }
+    ],
+    "stack": [
+      { "key": "laravel", "name": "Laravel", "type": "devicon" },
+      { "key": "vscode", "name": "Visual Studio Code", "type": "devicon" },
+      { "key": "postgres", "name": "Postgres", "type": "devicon" },
+      { "key": "git", "name": "Git", "type": "devicon" },
+      { "key": "github", "name": "Github", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind CSS", "type": "devicon" },
+      { "key": "html5", "name": "HTML", "type": "devicon" },
+      { "key": "css3", "name": "CSS", "type": "devicon" },
+      { "key": "filamentphp", "name": "Filament PHP", "type": "devicon" }
     ]
   }
 ]

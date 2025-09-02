@@ -1,15 +1,14 @@
 {
-  "name": "Aymane El Maini",
+  "name": "Achraf Chehboun",
   "logo": "",
 
   "username": {
-    "github": "aymanetech",
-    "medium": "@--aymaneelmaini"
+    "github": "chehachraf"
   },
 
   "portfolio": {
     "forkthis": "Steal this theme! Its open-source 🥰",
-    "repo_html": "https://www.github.com/atlamors/portfolio",
-    "repo_api": "https://api.github.com/users/AymaneTech/repos"
+    "repo_html": "https://www.github.com/chehachraf/portfolio",
+    "repo_api": "https://api.github.com/users/chehachraf/repos"
   }
 }

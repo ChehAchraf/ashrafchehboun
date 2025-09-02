@@ -92,7 +92,7 @@ export default function Technical() {
 
 const languages = [
   { key: "java", name: "Java", type: "devicon" },
-  { key: "go", name: "Go", type: "devicon" },
+  { key: "dart", name: "Dart", type: "devicon" },
   { key: "c", name: "C", type: "devicon" },
   { key: "python", name: "Python", type: "devicon" },
   { key: "php", name: "PHP", type: "devicon" },
@@ -105,7 +105,12 @@ const languages = [
 const frameworks = [
   { key: "springboot", name: "Spring Boot", type: "devicon" },
   { key: "laravel", name: "Laravel", type: "devicon" },
-  { key: "symfony", name: "Symfony", type: "devicon" },
+  { key: "django", name: "Django", type: "devicon" },
+  { key: "flask", name: "Flask", type: "devicon" },
+  { key: "fastapi", name: "FastAPI", type: "devicon" },
+  { key: "reactnative", name: "React Native", type: "devicon" },
+  { key: "react", name: "React", type: "devicon" },
+  { key: "vuejs", name: "VueJS", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
   { key: "react", name: "React", type: "devicon" },

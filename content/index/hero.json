@@ -1,7 +1,7 @@
 {
 	"intro": {
-		"start": "const Ayamne = ( name, patient ) =>",
-		"end": "Hello, my name is",
+		"start": "const Achraf = ( name, patient ) =>",
+		"end": "Hello, my name is Achraf.",
 		"speed": 60,
 		"deletionSpeed": 80,
 		"wrapper": "h2",
@@ -11,7 +11,7 @@
 	},
 
 	"header": {
-		"name": "Aymane El Maini.",
+		"name": "Achraf Chehboun.",
 		"usp": "I architect robust systems and craft impactful solutions"
 	},
 
@@ -20,12 +20,12 @@
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "",
+			"url": "mailto:achrafchehboun@outlook.com",
 			"leaveSite": false
 		},
 		"secondary": {
 			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/aymane-el-maini-b53725260/",
+			"url": "https://www.linkedin.com/in/achraf-chehboun-59b049123/",
 			"leaveSite": "true"
 		}
 	}
