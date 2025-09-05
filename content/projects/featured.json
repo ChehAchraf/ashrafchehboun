@@ -100,5 +100,35 @@
       { "key": "css3", "name": "CSS", "type": "devicon" },
       { "key": "filamentphp", "name": "Filament PHP", "type": "devicon" }
     ]
+  },
+  {
+    "project": "stock management system",
+    "url": "https://github.com/ChehAchraf/gestion-de-stock-react",
+    "repo": "public",
+    "descriptionTitle": "Stock management system",
+    "description": "  built with React, that allow the stock owner to manage their stock and inventory, and hadle the creation of new products with name price and picture and also the reference of the product that could be entred manually or scanned by a barcode scanner, also the stock owner can add new products to the stock and also remove them, and also the stock owner can view the stock and inventory of the products, and also the stock owner can view the history of the stock and inventory of the products with the ability ro create sell of each product beside repport page",
+    "imageOptions": [],
+    "images": [
+      {
+        "key": "stockmanagement-mock",
+        "hover": "left",
+        "h": "556",
+        "w": "556",
+        "url": "/img/projects/citronix-mock.png"
+      }
+    ],
+    "stack": [
+      { "key": "react", "name": "React", "type": "devicon" },
+      { "key": "vscode", "name": "Visual Studio Code", "type": "devicon" },
+      { "key": "javascript", "name": "JavaScript", "type": "devicon" },
+      { "key": "git", "name": "Git", "type": "devicon" },
+      { "key": "github", "name": "Github", "type": "devicon" },
+      { "key": "tailwindcss", "name": "Tailwind CSS", "type": "devicon" },
+      { "key": "html5", "name": "HTML", "type": "devicon" },
+      { "key": "css3", "name": "CSS", "type": "devicon" },
+      { "key": "vite", "name": "Vite", "type": "devicon" },
+      { "key": "supabase", "name": "Supabase", "type": "devicon" },
+      { "key": "ubuntu", "name": "Ubuntu", "type": "devicon" }
+    ]
   }
 ]
