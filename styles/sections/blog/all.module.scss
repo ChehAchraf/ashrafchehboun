@@ -1,0 +1,22 @@
+.resultsInfo {
+	margin-bottom: 1.5rem;
+	text-align: center;
+
+	p {
+		color: var(--primary-dim);
+		font-size: 0.9rem;
+		margin: 0;
+	}
+}
+
+.blogGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+}

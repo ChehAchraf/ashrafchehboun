@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Building Scalable Backend APIs with Laravel",
+    "excerpt": "Learn how to architect robust and scalable backend APIs using Laravel framework, covering best practices for database design, authentication, and performance optimization.",
+    "date": "2024-01-15",
+    "readTime": "8 min read",
+    "category": "Backend Development",
+    "tags": ["Laravel", "PHP", "API", "Backend"],
+    "featured": true,
+    "slug": "building-scalable-backend-apis-laravel",
+    "url": "/blog/building-scalable-backend-apis-laravel"
+  },
+  {
+    "id": 2,
+    "title": "React vs Vue.js: Choosing the Right Frontend Framework",
+    "excerpt": "A comprehensive comparison between React and Vue.js, exploring their strengths, weaknesses, and use cases to help you make informed decisions for your projects.",
+    "date": "2024-01-08",
+    "readTime": "6 min read",
+    "category": "Frontend Development",
+    "tags": ["React", "Vue.js", "JavaScript", "Frontend"],
+    "featured": true,
+    "slug": "react-vs-vuejs-choosing-frontend-framework",
+    "url": "/blog/react-vs-vuejs-choosing-frontend-framework"
+  },
+  {
+    "id": 3,
+    "title": "Database Optimization Techniques for Better Performance",
+    "excerpt": "Discover essential database optimization strategies including indexing, query optimization, and caching techniques to improve your application's performance.",
+    "date": "2024-01-01",
+    "readTime": "10 min read",
+    "category": "Database",
+    "tags": ["MySQL", "PostgreSQL", "Performance", "Optimization"],
+    "featured": false,
+    "slug": "database-optimization-techniques-performance",
+    "url": "/blog/database-optimization-techniques-performance"
+  },
+  {
+    "id": 4,
+    "title": "Docker for Developers: Containerization Best Practices",
+    "excerpt": "Master Docker containerization with practical examples and best practices for development, testing, and deployment workflows.",
+    "date": "2023-12-25",
+    "readTime": "7 min read",
+    "category": "DevOps",
+    "tags": ["Docker", "Containerization", "DevOps", "Deployment"],
+    "featured": false,
+    "slug": "docker-developers-containerization-best-practices",
+    "url": "/blog/docker-developers-containerization-best-practices"
+  },
+  {
+    "id": 5,
+    "title": "Understanding RESTful API Design Principles",
+    "excerpt": "Deep dive into RESTful API design principles, HTTP methods, status codes, and best practices for creating maintainable APIs.",
+    "date": "2023-12-18",
+    "readTime": "9 min read",
+    "category": "Backend Development",
+    "tags": ["API", "REST", "HTTP", "Backend"],
+    "featured": false,
+    "slug": "understanding-restful-api-design-principles",
+    "url": "/blog/understanding-restful-api-design-principles"
+  },
+  {
+    "id": 6,
+    "title": "Modern JavaScript ES6+ Features Every Developer Should Know",
+    "excerpt": "Explore essential ES6+ JavaScript features including arrow functions, destructuring, async/await, and modules that every developer should master.",
+    "date": "2023-12-10",
+    "readTime": "12 min read",
+    "category": "Frontend Development",
+    "tags": ["JavaScript", "ES6", "Frontend", "Programming"],
+    "featured": false,
+    "slug": "modern-javascript-es6-features-developers-should-know",
+    "url": "/blog/modern-javascript-es6-features-developers-should-know"
+  },
+  {
+    "id": 7,
+    "title": "Git Workflow Strategies for Team Development",
+    "excerpt": "Learn effective Git workflow strategies including branching models, merge strategies, and collaboration best practices for team development.",
+    "date": "2023-12-05",
+    "readTime": "8 min read",
+    "category": "DevOps",
+    "tags": ["Git", "Version Control", "Teamwork", "DevOps"],
+    "featured": false,
+    "slug": "git-workflow-strategies-team-development",
+    "url": "/blog/git-workflow-strategies-team-development"
+  },
+  {
+    "id": 8,
+    "title": "Building Responsive Web Applications with CSS Grid",
+    "excerpt": "Master CSS Grid layout system to create responsive, flexible web applications with modern CSS techniques and best practices.",
+    "date": "2023-11-28",
+    "readTime": "10 min read",
+    "category": "Frontend Development",
+    "tags": ["CSS", "Grid", "Responsive", "Frontend"],
+    "featured": false,
+    "slug": "building-responsive-web-applications-css-grid",
+    "url": "/blog/building-responsive-web-applications-css-grid"
+  },
+  {
+    "id": 9,
+    "title": "Security Best Practices for Web Applications",
+    "excerpt": "Essential security practices for web applications including authentication, authorization, data protection, and common vulnerabilities to avoid.",
+    "date": "2023-11-20",
+    "readTime": "11 min read",
+    "category": "Security",
+    "tags": ["Security", "Authentication", "Web Security", "Best Practices"],
+    "featured": false,
+    "slug": "security-best-practices-web-applications",
+    "url": "/blog/security-best-practices-web-applications"
+  },
+  {
+    "id": 10,
+    "title": "Performance Optimization Techniques for React Applications",
+    "excerpt": "Learn advanced React performance optimization techniques including memoization, code splitting, and bundle optimization strategies.",
+    "date": "2023-11-15",
+    "readTime": "9 min read",
+    "category": "Frontend Development",
+    "tags": ["React", "Performance", "Optimization", "Frontend"],
+    "featured": false,
+    "slug": "performance-optimization-techniques-react-applications",
+    "url": "/blog/performance-optimization-techniques-react-applications"
+  }
+]

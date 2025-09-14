@@ -27,6 +27,11 @@
 			"title": "LinkedIn",
 			"url": "https://www.linkedin.com/in/achraf-chehboun-59b049123/",
 			"leaveSite": "true"
+		},
+		"cv": {
+			"title": "Download CV",
+			"url": "/cv/Achraf_Chehboun_CV.pdf",
+			"leaveSite": false
 		}
 	}
 }

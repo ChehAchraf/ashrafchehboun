@@ -1,0 +1,274 @@
+.navigation {
+	margin-bottom: 2rem;
+}
+
+.backButton {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary);
+	border-radius: 6px;
+	font-size: 0.9rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background: var(--primary-dark);
+		color: var(--primary-bright);
+		border-color: var(--secondary);
+	}
+
+	svg {
+		font-size: 0.8rem;
+	}
+}
+
+.article {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.articleHeader {
+	margin-bottom: 3rem;
+	text-align: center;
+}
+
+.articleMeta {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1.5rem;
+	flex-wrap: wrap;
+}
+
+.featuredBadge {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	background: linear-gradient(135deg, var(--secondary), var(--secondary-bright));
+	color: var(--background);
+	padding: 0.25rem 0.75rem;
+	border-radius: 20px;
+	font-size: 0.75rem;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.categoryBadge {
+	background: var(--primary-dark);
+	color: var(--primary-bright);
+	padding: 0.25rem 0.75rem;
+	border-radius: 20px;
+	font-size: 0.75rem;
+	font-weight: 500;
+}
+
+.articleTitle {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: var(--primary);
+	line-height: 1.2;
+	margin-bottom: 1.5rem;
+	text-align: center;
+
+	@media (max-width: 768px) {
+		font-size: 2rem;
+	}
+}
+
+.articleInfo {
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+	flex-wrap: wrap;
+}
+
+.metaItem {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	color: var(--primary-dim);
+	font-size: 0.9rem;
+
+	svg {
+		color: var(--secondary);
+		font-size: 0.8rem;
+	}
+}
+
+.articleContent {
+	line-height: 1.7;
+}
+
+.articleExcerpt {
+	background: var(--primary-dark);
+	padding: 2rem;
+	border-radius: 12px;
+	margin-bottom: 3rem;
+	border-left: 4px solid var(--secondary);
+
+	p {
+		font-size: 1.1rem;
+		color: var(--primary-bright);
+		margin: 0;
+		font-style: italic;
+	}
+}
+
+.articleBody {
+	margin-bottom: 3rem;
+
+	h2 {
+		font-size: 1.8rem;
+		font-weight: 600;
+		color: var(--primary);
+		margin: 2.5rem 0 1rem 0;
+		border-bottom: 2px solid var(--primary-dark);
+		padding-bottom: 0.5rem;
+	}
+
+	h3 {
+		font-size: 1.4rem;
+		font-weight: 600;
+		color: var(--primary);
+		margin: 2rem 0 1rem 0;
+	}
+
+	p {
+		font-size: 1rem;
+		color: var(--primary-dim);
+		margin-bottom: 1.5rem;
+	}
+
+	ul, ol {
+		margin: 1.5rem 0;
+		padding-left: 2rem;
+
+		li {
+			font-size: 1rem;
+			color: var(--primary-dim);
+			margin-bottom: 0.5rem;
+		}
+	}
+
+	code {
+		background: var(--primary-dark);
+		color: var(--secondary);
+		padding: 0.2rem 0.4rem;
+		border-radius: 4px;
+		font-family: 'Fira Code', monospace;
+		font-size: 0.9rem;
+	}
+
+	pre {
+		background: var(--primary-dark);
+		padding: 1.5rem;
+		border-radius: 8px;
+		overflow-x: auto;
+		margin: 1.5rem 0;
+
+		code {
+			background: none;
+			padding: 0;
+		}
+	}
+}
+
+.articleTags {
+	margin-top: 3rem;
+	padding-top: 2rem;
+	border-top: 1px solid var(--primary-dark);
+
+	h4 {
+		font-size: 1.1rem;
+		font-weight: 600;
+		color: var(--primary);
+		margin-bottom: 1rem;
+	}
+}
+
+.tagList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.tag {
+	background: var(--primary-dark);
+	color: var(--primary-bright);
+	padding: 0.25rem 0.5rem;
+	border-radius: 12px;
+	font-size: 0.75rem;
+	font-weight: 500;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background: var(--secondary);
+		color: var(--background);
+	}
+}
+
+.relatedPosts {
+	margin-top: 4rem;
+	padding-top: 3rem;
+	border-top: 1px solid var(--primary-dark);
+}
+
+.relatedGrid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 2rem;
+	margin-top: 2rem;
+
+	@media (max-width: 768px) {
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+	}
+}
+
+.notFound {
+	text-align: center;
+	padding: 4rem 2rem;
+
+	h1 {
+		font-size: 2rem;
+		color: var(--primary);
+		margin-bottom: 1rem;
+	}
+
+	p {
+		color: var(--primary-dim);
+		margin-bottom: 2rem;
+	}
+}
+
+// Responsive design
+@media (max-width: 768px) {
+	.articleMeta {
+		gap: 0.5rem;
+	}
+
+	.articleInfo {
+		gap: 1rem;
+	}
+
+	.articleExcerpt {
+		padding: 1.5rem;
+	}
+
+	.articleBody {
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		h3 {
+			font-size: 1.2rem;
+		}
+	}
+}

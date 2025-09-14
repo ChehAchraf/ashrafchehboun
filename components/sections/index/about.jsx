@@ -17,7 +17,7 @@ export default function About() {
         />
         <section className={about.content}>
           <div className={about.image}>
-            <img src="/img/me.png" alt="Ayman el maini photo" />
+            <img src="/img/me.png" alt="Achraf chehboun photo" />
           </div>
           <div className={about.copy}>
             <CopyBlock

@@ -65,12 +65,17 @@ export default function Hero() {
 				</section>
 				<section>
 					<button	className={`button ${button.primary}`}
-							onClick={ () => window.location = 'mailto:elmainiaymane03@gmail.com' } >
+							onClick={ () => window.location = content.buttons.primary.url } >
 						{content.buttons.primary.title}
 					</button>
 					<button className={`button ${button.secondary} leaveSite`}
-							onClick={ ()=> window.open("https://www.linkedin.com/in/achraf-chehboun-59b049123/", "_blank") } >
+							onClick={ ()=> window.open(content.buttons.secondary.url, "_blank") } >
 						{content.buttons.secondary.title}
+					</button>
+					<button className={`button ${button.secondary}`}
+							onClick={ () => window.open(content.buttons.cv.url, "_blank") } >
+						<Icon icon={['fas', 'download']} />
+						{content.buttons.cv.title}
 					</button>
 				</section>
 			</Container>

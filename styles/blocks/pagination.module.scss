@@ -1,0 +1,86 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5rem;
+	margin-top: 3rem;
+	padding: 1rem 0;
+}
+
+.pageNumbers {
+	display: flex;
+	gap: 0.25rem;
+}
+
+.pageButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary);
+	border-radius: 6px;
+	font-size: 0.9rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	min-width: 40px;
+	height: 40px;
+
+	&:hover:not(:disabled) {
+		background: var(--primary-dark);
+		color: var(--primary-bright);
+		border-color: var(--secondary);
+	}
+
+	&:disabled {
+		opacity: 0.5;
+		cursor: not-allowed;
+	}
+
+	svg {
+		font-size: 0.8rem;
+	}
+}
+
+.navButton {
+	padding: 0.5rem 1rem;
+	font-size: 0.85rem;
+}
+
+.active {
+	background: var(--secondary);
+	color: var(--background);
+	border-color: var(--secondary);
+
+	&:hover {
+		background: var(--secondary-bright);
+		border-color: var(--secondary-bright);
+	}
+}
+
+// Responsive design
+@media (max-width: 768px) {
+	.pagination {
+		gap: 0.25rem;
+		margin-top: 2rem;
+	}
+
+	.pageButton {
+		padding: 0.4rem 0.8rem;
+		font-size: 0.8rem;
+		min-width: 35px;
+		height: 35px;
+	}
+
+	.navButton {
+		padding: 0.4rem 0.8rem;
+		font-size: 0.75rem;
+	}
+
+	.pageNumbers {
+		gap: 0.15rem;
+	}
+}

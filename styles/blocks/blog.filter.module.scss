@@ -1,0 +1,163 @@
+.filterContainer {
+	background: var(--background);
+	border: 1px solid var(--primary-dark);
+	border-radius: 12px;
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.filterSection {
+	margin-bottom: 2rem;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.filterTitle {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: var(--primary);
+	margin-bottom: 1rem;
+
+	svg {
+		color: var(--secondary);
+		font-size: 1rem;
+	}
+}
+
+.categoryFilters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+.tagFilters {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+}
+
+.filterButton {
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary);
+	border-radius: 20px;
+	font-size: 0.9rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background: var(--primary-dark);
+		color: var(--primary-bright);
+		border-color: var(--secondary);
+	}
+
+	&.active {
+		background: var(--secondary);
+		color: var(--background);
+		border-color: var(--secondary);
+
+		&:hover {
+			background: var(--secondary-bright);
+			border-color: var(--secondary-bright);
+		}
+	}
+}
+
+.tagButton {
+	padding: 0.4rem 0.8rem;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary-dim);
+	border-radius: 15px;
+	font-size: 0.8rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background: var(--primary-dark);
+		color: var(--primary-bright);
+		border-color: var(--secondary);
+	}
+
+	&.active {
+		background: var(--secondary);
+		color: var(--background);
+		border-color: var(--secondary);
+
+		&:hover {
+			background: var(--secondary-bright);
+			border-color: var(--secondary-bright);
+		}
+	}
+}
+
+.clearFilters {
+	display: flex;
+	justify-content: center;
+	margin-top: 1.5rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid var(--primary-dark);
+}
+
+.clearButton {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--primary-dark);
+	background: transparent;
+	color: var(--primary-dim);
+	border-radius: 6px;
+	font-size: 0.85rem;
+	font-weight: 500;
+	cursor: pointer;
+	transition: all 0.3s ease;
+
+	&:hover {
+		background: var(--primary-dark);
+		color: var(--primary-bright);
+		border-color: var(--secondary);
+	}
+
+	svg {
+		font-size: 0.8rem;
+	}
+}
+
+// Responsive design
+@media (max-width: 768px) {
+	.filterContainer {
+		padding: 1.5rem;
+		margin-bottom: 1.5rem;
+	}
+
+	.filterTitle {
+		font-size: 1rem;
+	}
+
+	.categoryFilters {
+		gap: 0.5rem;
+	}
+
+	.tagFilters {
+		gap: 0.4rem;
+	}
+
+	.filterButton {
+		padding: 0.4rem 0.8rem;
+		font-size: 0.85rem;
+	}
+
+	.tagButton {
+		padding: 0.3rem 0.6rem;
+		font-size: 0.75rem;
+	}
+}
