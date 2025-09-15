@@ -24,7 +24,7 @@ export async function fetchMediumPosts(username, limit = 10) {
 			// Use a CORS proxy to fetch the RSS feed
 			const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
 			
-			console.log('Fetching Medium posts from:', proxyUrl);
+			console.log('Fetching Medium posts from:' , proxyUrl);
 			
 			const response = await fetch(proxyUrl, {
 				method: 'GET',
