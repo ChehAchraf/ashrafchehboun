@@ -34,7 +34,6 @@ import '../styles/css/global.css'
  */
 export default function MyApp({ Component, pageProps }) {
 	return (
-		<>
 		<LazyMotion features={domAnimation}>
 			<Layout>
 				<Component {...pageProps} />
@@ -42,6 +41,5 @@ export default function MyApp({ Component, pageProps }) {
 				<Analytics />
 			</Layout>
 		</LazyMotion>
-		</>
 	)
 }
