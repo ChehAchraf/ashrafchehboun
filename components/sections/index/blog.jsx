@@ -1,4 +1,5 @@
 // Core packages
+import Link from "next/link";
 import Icon from "../../utils/icon.util";
 
 // Section structure
@@ -41,10 +42,10 @@ export default function Blog({ posts = [] }) {
 					))}
 				</section>
 				<div className={blogStyles.blogFooter}>
-					<a href="/blog" className={blogStyles.viewAllLink}>
+					<Link href="/blog" className={blogStyles.viewAllLink}>
 						View All Posts
 						<Icon icon={['fas', 'arrow-right']} />
-					</a>
+					</Link>
 				</div>
 			</Container>
 		</Section>

@@ -54,7 +54,7 @@ export default function BlogArticle({ article }) {
 					<Container spacing={["verticalXXXLrg"]}>
 						<div className={articleStyles.notFound}>
 							<h1>Article Not Found</h1>
-							<p>The article you're looking for doesn't exist.</p>
+							<p>The article you&apos;re looking for doesn&apos;t exist.</p>
 							<button 
 								className={articleStyles.backButton}
 								onClick={() => router.push('/blog')}
@@ -149,7 +149,7 @@ export default function BlogArticle({ article }) {
 								<h3>Conclusion</h3>
 								<p>
 									This article has covered the essential aspects of {article.title.toLowerCase()}. 
-									By following these guidelines and best practices, you'll be able to implement 
+									By following these guidelines and best practices, you&apos;ll be able to implement 
 									these concepts effectively in your own projects.
 								</p>
 							</div>
