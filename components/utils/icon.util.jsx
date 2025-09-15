@@ -35,7 +35,7 @@ export default function Icon({ icon }) {
 
 	const [ iconType, iconKey ] = icon
 
-	const [ stateIconKey, setIconKey ] = useState('circle-notch')
+	const [ stateIconKey, setIconKey ] = useState('circle')
 
 	useEffect( () => setIconKey( iconKey ), [ iconKey ] )
 

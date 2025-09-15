@@ -113,7 +113,6 @@ const frameworks = [
   { key: "vuejs", name: "VueJS", type: "devicon" },
   { key: "nodejs", name: "NodeJS", type: "devicon" },
   { key: "nextjs", name: "NextJS", type: "devicon" },
-  { key: "react", name: "React", type: "devicon" },
   { key: "angular", name: "Angular", type: "devicon" },
 ];
 

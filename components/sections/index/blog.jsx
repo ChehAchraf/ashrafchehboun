@@ -43,8 +43,10 @@ export default function Blog({ posts = [] }) {
 				</section>
 				<div className={blogStyles.blogFooter}>
 					<Link href="/blog" className={blogStyles.viewAllLink}>
-						View All Posts
-						<Icon icon={['fas', 'arrow-right']} />
+						<span>
+							View All Posts
+							<Icon icon={['fas', 'arrow-right']} />
+						</span>
 					</Link>
 				</div>
 			</Container>

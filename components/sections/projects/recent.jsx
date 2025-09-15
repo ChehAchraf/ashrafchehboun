@@ -22,7 +22,7 @@ export default function GitProjects({ repos, user }) {
             height={60}
             width={60}
           />
-          <span class={css.details}>
+          <span className={css.details}>
             <p>{user[0].name}</p>
             <a href={user[0].html_url} rel="noreferrer" target="_blank">
               {user[0].html_url}{" "}
@@ -79,7 +79,7 @@ export default function GitProjects({ repos, user }) {
                       {topics.map((e, index) => {
                         return (
                           <span key={index} className={css.topics}>
-                            <i class="devicon-github-plain"></i> {e}
+                            <i className="devicon-github-plain"></i> {e}
                           </span>
                         );
                       })}

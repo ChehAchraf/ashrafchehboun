@@ -34,6 +34,7 @@ function Dark({colors}) {
 			</style>
 		)
 	}
+	return null;
 }
 function Unicorn({colors}) {
 	const children = Object.keys(colors).length
@@ -51,6 +52,7 @@ function Unicorn({colors}) {
 			</style>
 		)
 	}
+	return null;
 }
 
 function Light({colors}) {
@@ -69,4 +71,5 @@ function Light({colors}) {
 			</style>
 		)
 	}
+	return null;
 }
