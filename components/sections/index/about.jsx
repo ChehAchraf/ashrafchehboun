@@ -17,7 +17,7 @@ export default function About() {
         />
         <section className={about.content}>
           <div className={about.image}>
-            <Image src="/img/me.png" alt="Achraf chehboun photo" width={300} height={300} />
+            <Image src="/img/me.png" alt="Achraf chehboun photo" width={700} height={1000} className="w-full h-full object-cover" style={{width: '100%', height: '100%'}} />
           </div>
           <div className={about.copy}>
             <CopyBlock
